@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800;900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+#testimonials{
+  padding: 5rem 0 10rem 0;
+  background-color: rgb(211, 208, 208);
+  font-size: 2rem;
+}
+.testimonial-title{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #666;
+}
+.testimonial-container{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  /* flex-wrap: wrap; */
+  padding: 1rem;
+}
+.testimonial-container .checked{
+  color: #ff9529;
+}
+.testimonial-box .testimonial-text{
+  margin: 1rem 0;
+  color: #444;
+}
+.testimonial-box{
+  text-align: center;
+  padding: 1rem;
+}
+.testimonial-box span{
+  display: inline-block;
+}
+.testimonial-container img{
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin: auto;
+}
